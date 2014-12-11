@@ -1,0 +1,103 @@
+  .wrap{
+  padding: 10px;
+  background: #FFFFFF;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+  .wrap h2 {
+  color:#09C;
+  font-family: "Microsoft YaHei",Verdana,Arial,Helvetica,sans-serif;
+  font-weight: bold;
+}
+  .themeadmin {
+  border:1px dashed #999;
+  margin-top:20px;
+  width:420px;
+  position:10px;
+}
+  .options {
+  margin-top:20px;
+}
+.options input{height: 28px;}
+  .options input,.options textarea {
+  padding:2px;
+  border:1px solid;
+  border-color:#666 #CCC #CCC #666;
+  background:#F9F9F9;
+  color:#333;
+  resize:none;
+  width:400px;
+}
+  .options .h140px {
+  height:140px;
+}
+  .options .h80px {
+  height:80px;
+}
+  .options .h60px {
+  height:60px;
+}
+  .options .setup {
+  border-top:1px dotted #CCC;
+  padding:10px 0 10px 10px;
+  overflow:hidden;
+}
+  .options .setup h3 {
+  width: 150px;
+  float: left;
+  font-size:14px;
+  margin:0;
+  padding:0;
+}
+.options .setup .upload_button,.options .setup .del_button{width: 60px;}
+  .options .setup .value {
+  float:left;
+  width:410px;
+}
+  .options .setup .explain {
+  float:left;
+}
+.options .group h3{
+  margin: 0;
+  font-family: "Microsoft YaHei",Verdana,Arial,Helvetica,sans-serif;
+  padding: 5px;
+  font-size: 20px;
+  border-left: 5px solid #1ABC9C;
+  color: #3498DB;
+  font-weight: bold;
+}
+.wrap .reset{
+  float: right;
+  position: relative;
+  bottom: 45px;
+  color: #ccc;
+
+}
+.wrap .reset #btn{
+  background: #648D51;
+  border-color: #0074a2;
+  -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+  box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px !important;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 26px;
+  height: 28px;
+  margin: 0;
+  padding: 0 10px 1px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap .reset #btn:hover{
+  background: #7AAD62;
+}
