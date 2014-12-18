@@ -8,7 +8,6 @@ if(!empty($style) && $style == 0 ){
 }else{
 	include ("indexA.php");
 }
-
-
+$a = 'aaaa';
 
 ?>
