@@ -9,4 +9,5 @@ if(!empty($style) && $style == 0 ){
 	include ("indexA.php");
 }
 
+$test = 'aaaa';
 ?>
